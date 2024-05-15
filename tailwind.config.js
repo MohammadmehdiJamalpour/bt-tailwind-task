@@ -2,12 +2,15 @@
 module.exports = {
   content: ["./public/**/*.html"],
   theme: {
-    fontFamily: {
-      sans: ["vazir"],
-    },
     extend: {
+      fontFamily: {
+        sans: ["vazir"],
+      },
       screens: {
         xs: "378px",
+      },
+      fontSize: {
+        "2xs": "0.5rem", // Adjust the font size as needed
       },
     },
   },
