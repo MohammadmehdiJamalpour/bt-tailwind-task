@@ -537,6 +537,9 @@ video {
 .w-full{
   width: 100%;
 }
+.w-1\/2{
+  width: 50%;
+}
 .max-w-xs{
   max-width: 20rem;
 }
@@ -814,6 +817,9 @@ video {
   .md\:w-2\/3{
     width: 66.666667%;
   }
+  .md\:max-w-xs{
+    max-width: 20rem;
+  }
   .md\:flex-row{
     flex-direction: row;
   }
@@ -845,6 +851,9 @@ video {
   .md\:text-xl{
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+  .md\:\*\:max-w-xs > *{
+    max-width: 20rem;
   }
 }
 @media (min-width: 1024px){
