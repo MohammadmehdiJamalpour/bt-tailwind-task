@@ -2,8 +2,14 @@
 module.exports = {
   content: ["./public/**/*.html"],
   theme: {
-    extend: {},
+    fontFamily: {
+      sans: ["vazir"],
+    },
+    extend: {
+      screens: {
+        xs: "378px",
+      },
+    },
   },
   plugins: [],
-}
-
+};
